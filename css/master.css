@@ -25,7 +25,7 @@ padding-top: 5px;
 }
 
 .top-left-buttons {
-    width: 350px;
+    width: 250px;
 }
 
 .menu {
@@ -35,39 +35,33 @@ padding-top: 5px;
 
 .search {
   display: block;
-  margin: 4px 10px 4px;
   font-size: 0.3em;
+  margin: 4px 10px 4px;
+  
 }
 
 .title {
   display: inline-block;
-  margin: 4px 10px 4px;
-  font-size: 1.0em;
-  margin-bottom: 5px;
-
+  font-size: 0.8em;
   font-weight: bold;
+  margin: 4px 10px 4px;
+  margin-top: 8px;
+  
 }
 
-
-
-
-.top-menubar div {
-  margin: 0px;
-  padding: 0px;
+.subscribe-content { 
+  width: 250px;
 }
-
-
-.subscribe-content { width: 250px;}
 
 .subscribe {
 cursor: pointer;
 background: rgb(86, 123, 149);
 color:#fff;
-height: 30px;
-padding: 4px 9px;
+padding: 11px 12px 8px;
 border:none;
-border-radius: 2px;
+border-radius: 3px;
 font-weight: bold;
+vertical-align: middle;
 }
 
 
@@ -102,4 +96,9 @@ font-weight: bold;
   display: flex;
   align-content: center;
   justify-content: center;
+}
+
+.top-menubar .material-icons {
+  font-size: 20px;
+
 }
