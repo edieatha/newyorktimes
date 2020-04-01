@@ -54,13 +54,13 @@ padding-top: 5px;
 }
 
 .subscribe {
-cursor: pointer;
 background: rgb(86, 123, 149);
-color:#fff;
-padding: 11px 12px 8px;
 border:none;
 border-radius: 3px;
+color:#fff;
+cursor: pointer;
 font-weight: bold;
+padding: 8px 12px 8px;
 vertical-align: middle;
 }
 
@@ -103,10 +103,27 @@ vertical-align: middle;
 
 }
 
-.main_content {
- margin: 50px auto;
- background-color: bisque;
- width:80%;
- min-height: 500px;
 
+.main_content{
+  width: 80%;
+  margin: 100px auto;
+}
+
+.main_image {
+  margin-bottom: 60px;
+}
+
+.main_article {
+  max-width: 600px;
+  margin: 20px auto;
+
+}
+
+.main_image img {
+  width: 100%;
+}
+
+.socials ul li {
+  list-style: none;
+  display: inline-block;
 }
