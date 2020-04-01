@@ -3,8 +3,7 @@ html,body{
   padding: 0px;
 }
 body{
-  position: relative;
-  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  font-family: 'nyt-franklin', sans-serif;
 }
 
 .main-logo img {
@@ -54,13 +53,13 @@ padding-top: 5px;
 }
 
 .subscribe {
-cursor: pointer;
 background: rgb(86, 123, 149);
-color:#fff;
-padding: 11px 12px 8px;
 border:none;
 border-radius: 3px;
+color:#fff;
+cursor: pointer;
 font-weight: bold;
+padding: 8px 12px 8px;
 vertical-align: middle;
 }
 
@@ -101,4 +100,28 @@ vertical-align: middle;
 .top-menubar .material-icons {
   font-size: 20px;
 
+}
+
+.main_content{
+  width: 80%;
+  margin: 100px auto;
+}
+
+.main_image {
+  margin-bottom: 60px;
+}
+
+.main_article {
+  max-width: 600px;
+  margin: 20px auto;
+
+}
+
+.main_image img {
+  width: 100%;
+}
+
+.socials ul li {
+  list-style: none;
+  display: inline-block;
 }
