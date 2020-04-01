@@ -3,7 +3,7 @@ html,body{
   padding: 0px;
 }
 body{
-  position: relative;
+
   font-family: nyt-franklin,helvetica,arial,sans-serif;
 }
 
@@ -37,7 +37,7 @@ padding-top: 5px;
   display: block;
   font-size: 0.3em;
   margin: 4px 10px 4px;
-  
+
 }
 
 .title {
@@ -46,10 +46,10 @@ padding-top: 5px;
   font-weight: bold;
   margin: 4px 10px 4px;
   margin-top: 8px;
-  
+
 }
 
-.subscribe-content { 
+.subscribe-content {
   width: 250px;
 }
 
@@ -100,5 +100,13 @@ vertical-align: middle;
 
 .top-menubar .material-icons {
   font-size: 20px;
+
+}
+
+.main_content {
+ margin: 50px auto;
+ background-color: bisque;
+ width:80%;
+ min-height: 500px;
 
 }
