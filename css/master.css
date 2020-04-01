@@ -122,8 +122,85 @@ vertical-align: middle;
 .main_image img {
   width: 100%;
 }
+.socials ul {
+  padding: 0px;
+  width: 210px;
+  float: right;
+}
 
 .socials ul li {
   list-style: none;
   display: inline-block;
+
 }
+
+.date {
+  padding: 20px 2px;
+  float:left;
+  width:30%;
+  font-weight: normal;
+  font-size:0.8em;
+}
+
+.socials{
+text-align: right;
+
+  display: inline-block;
+  float: right;
+  width: 69%;}
+
+.clear-both {
+  clear:both;
+}
+
+
+
+.socials fa {
+  text-align: center;
+  padding-top: 5px;
+}
+
+.rounded {
+  text-align: center;
+  line-height: 30px;
+  display:block;
+  background-color: #ccc;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.award {
+  text-align: center;
+  line-height: 30px;
+  display:block;
+ font-style: 2em;
+  height: 30px;
+  width: 30px;
+
+}
+
+.message{
+  vertical-align: text-bottom;
+  text-align: center;
+  line-height: 30px;
+  display:block;
+  font-size:2.0em;
+  height: 30px;
+  width: 30px;
+  position: relative;;
+}
+.award .fa-bookmark-o {
+    font-size:1.2em;
+}
+.message .material-icons{
+    margin-top:7px;
+    font-size: 1.0em;
+    width:35px;
+}
+.message span {
+font-size: 0.2em;
+position: absolute;
+top:4px;
+right: 5px;
+ }
