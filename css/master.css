@@ -1,0 +1,105 @@
+html,body{
+  margin:0px;
+  padding: 0px;
+}
+body{
+  position: relative;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+}
+
+.main-logo img {
+
+}
+
+.top-menubar {
+position: absolute;
+justify-content: space-between;
+align-items: flex-start;
+top:0px;
+left:0px;
+width:100%;
+border-bottom: solid 1px #ccc;
+display: flex;
+
+padding-top: 5px;
+}
+
+.top-left-buttons {
+    width: 350px;
+}
+
+.menu {
+  display: block;
+  margin: 4px 10px 4px;
+}
+
+.search {
+  display: block;
+  margin: 4px 10px 4px;
+  font-size: 0.3em;
+}
+
+.title {
+  display: inline-block;
+  margin: 4px 10px 4px;
+  font-size: 1.0em;
+  margin-bottom: 5px;
+
+  font-weight: bold;
+}
+
+
+
+
+.top-menubar div {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.subscribe-content { width: 250px;}
+
+.subscribe {
+cursor: pointer;
+background: rgb(86, 123, 149);
+color:#fff;
+height: 30px;
+padding: 4px 9px;
+border:none;
+border-radius: 2px;
+font-weight: bold;
+}
+
+
+.account {
+  cursor: pointer;
+  background: none;
+  color:#666;
+  height: 30px;
+  padding: 4px;
+  border:none;
+  border-radius: 2px;
+}
+
+.account-span {
+  display: inline-block;
+  width: 90px;
+  margin-left: 6px;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.account-span .material-icons {
+  font-size: 0.9em;
+}
+
+.down-arrow {
+  font-size: 0.6em;
+}
+
+.top-left-buttons {
+
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
