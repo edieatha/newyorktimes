@@ -301,3 +301,79 @@ html, body {
   grid-column-start: 4;
   grid-column-end: 4;
 }
+
+.space-astronomy{
+  
+  float:left;
+  width: 70%;
+  min-height: 500px;
+}
+
+.sidebar{
+  float:right;
+  width: 30%;
+  min-height: 500px;
+}
+
+.space-astronomy-container{
+  width: 90%;
+  margin: auto;
+}
+
+
+.space-astronomy-container .sidebar{
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  color: rgb(18, 18, 18);
+font-size: 1.125rem;
+font-weight: 500;
+}
+
+
+
+.space-astronomy-container .sidebar h3{
+   padding: 10PX;
+}
+.space-astronomy-container .sidebar p{
+   padding: 0px 10px;
+border-top: solid 1px #ccc;
+}
+
+.clear{
+  clear: both;}
+
+.stories{
+
+}
+.list-of-stories {
+  padding: 0px;
+  margin: 0px;
+  padding:5px;
+  width:30%;
+  float: left;
+}
+
+.list-of-stories img {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.list-of-stories span {
+  display: block;
+  color: rgb(18, 18, 18);
+  font-weight: bold;
+  font-size: 1.125rem;
+line-height: 22px;
+}
+.date-day{
+  text-align: left;
+  display: block;
+  color: #888;
+  font-size:0.6em;
+}
+.tiny{
+  text-align:right;
+    display: block;
+    color: #888;
+  font-size: 0.4em;
+}
