@@ -377,3 +377,43 @@ line-height: 22px;
     color: #888;
   font-size: 0.4em;
 }
+
+.end_icons .comments_socials .read_comments {
+
+  background: rgb(86, 123, 149);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px 60px 12px;
+  vertical-align: middle;
+  margin-top: 15px;
+  margin-right: 180px;
+ }
+
+ .end_icons .socials2 {
+
+ }
+
+ .socials2 ul {
+  padding: 0px;
+  width: 150px;
+  float: right;
+}
+
+.socials2 ul li {
+  list-style: none;
+  display: inline-block;
+  background-color: gainsboro;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 100%;
+  width: 13px;
+  height: 13px;
+}
+
+.main_article .article span{
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.9vw;
+}
