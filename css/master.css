@@ -168,10 +168,11 @@ html, body {
   width: 100%;
 }
 
-figcaption {
+.main_image figcaption {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 2.1vh;
   color: dimgray;
+  width: 80%;
 }
 
 .main_image figcaption span {
@@ -326,42 +327,53 @@ figcaption {
 font-size: 1.125rem;
 font-weight: 500;
 }
- .end_icons .comments_socials .read_comments {
 
-  background: rgb(86, 123, 149);
-  border: none;
-  border-radius: 3px;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
-  padding: 12px 60px 12px;
-  vertical-align: middle;
-  margin-top: 15px;
-  margin-right: 180px;
- }
 
- .end_icons .socials2 {
 
- }
+.space-astronomy-container .sidebar h3{
+   padding: 10PX;
+}
+.space-astronomy-container .sidebar p{
+   padding: 0px 10px;
+border-top: solid 1px #ccc;
+}
 
- .socials2 ul {
+.clear{
+  clear: both;}
+
+.stories{
+
+}
+.list-of-stories {
   padding: 0px;
-  width: 150px;
-  float: right;
+  margin: 0px;
+  padding:5px;
+  width:30%;
+  float: left;
 }
 
-.socials2 ul li {
-  list-style: none;
-  display: inline-block;
-  background-color: gainsboro;
-  padding: 5px;
-  margin: 5px;
-  border-radius: 100%;
-  width: 13px;
-  height: 13px;
+.list-of-stories img {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
 }
 
-.main_article .article span{
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.9vw;
+.list-of-stories span {
+  display: block;
+  color: rgb(18, 18, 18);
+  font-weight: bold;
+  font-size: 1.125rem;
+line-height: 22px;
+}
+.date-day{
+  text-align: left;
+  display: block;
+  color: #888;
+  font-size:0.6em;
+}
+.tiny{
+  text-align:right;
+    display: block;
+    color: #888;
+  font-size: 0.4em;
 }
