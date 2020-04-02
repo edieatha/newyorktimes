@@ -122,6 +122,7 @@ vertical-align: middle;
 .main_image img {
   width: 100%;
 }
+
 .socials ul {
   padding: 0px;
   width: 210px;
@@ -204,3 +205,18 @@ position: absolute;
 top:4px;
 right: 5px;
  }
+
+ .article_image {
+  width: 100%;
+ }
+
+ .theory {
+  background-image url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png);
+  background-position: ;
+  background-repeat: no-repeat;
+
+}
+
+.theory_row1{
+  display: flex;
+}
