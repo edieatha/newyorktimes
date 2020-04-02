@@ -227,6 +227,7 @@ right: 5px;
 }
 
 .description .grid-container{
+<<<<<<< HEAD
    padding: 0px;
    margin: 0px;
    display: grid;
@@ -247,3 +248,92 @@ font-size: 0.8em;
 padding: 3px;
 
 }
+=======
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    width: 75%;
+    margin: 80px auto;
+    background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+    background-size: 100% 100%;
+    height: 630px;
+    width: 1000px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 0.9vw;
+    line-height: 1.2vw;
+
+ }
+
+ .grid-container .grid-item-1a {
+   
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+ }
+
+ .grid-container .grid-item-1 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+ }
+
+ .grid-container .grid-item-2a {
+    
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+ }
+ .grid-container .grid-item-2 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+ }
+
+
+ .grid-container .grid-item-3 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+ }
+
+ .grid-container .grid-item-4 {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 4;
+ }
+
+ .grid-container .grid-item-5 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+ }
+
+ .grid-container .grid-item-6 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+ }
+
+ .grid-container .grid-item-7 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
+ }
+
+ .grid-container .grid-item-8 {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 4;
+ }
+>>>>>>> 1ea377cef02efc2806d00d7b26435fecdeb374c2
