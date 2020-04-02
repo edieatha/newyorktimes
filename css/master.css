@@ -248,7 +248,7 @@ font-size: 0.8em;
 padding: 3px;
 
 }
-=======
+.description .grid-container{
     display: grid;
     grid-gap: 10px 10px;
     grid-template-columns: 25% 25% 25% 25%;
@@ -266,7 +266,7 @@ padding: 3px;
  }
 
  .grid-container .grid-item-1a {
-   
+
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 1;
@@ -281,7 +281,7 @@ padding: 3px;
  }
 
  .grid-container .grid-item-2a {
-    
+
     grid-row-start: 1;
     grid-row-end: 1;
     grid-column-start: 2;
@@ -336,4 +336,8 @@ padding: 3px;
     grid-column-start: 4;
     grid-column-end: 4;
  }
->>>>>>> 1ea377cef02efc2806d00d7b26435fecdeb374c2
+
+.theory-title {
+  width: 75%;
+  margin: auto;
+}
