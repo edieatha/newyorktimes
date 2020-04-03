@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 html, body,ul,li {
   margin: 0px;
   padding: 0px;
@@ -298,24 +298,30 @@ html, body,ul,li {
     float:right;
     width: 30%;
     min-height: 500px;
+    color: rgb(18, 18, 18);
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+
     }
     .space-astronomy-container{
     width: 90%;
     margin: auto;
     }
-    .space-astronomy-container .sidebar{
-    color: rgb(18, 18, 18);
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-size: 1.125rem;
-    font-weight: 500;
-    }
-    .space-astronomy-container .sidebar h3{
+
+   .sidebar h3{
     padding: 10PX;
     }
-.space-astronomy-container .sidebar p{
+
+
+
+.sidebar p{
     padding: 0px 10px;
     border-top: solid 1px #ccc;
     }
+
+
+
     .clear{
     clear: both;}
     .stories{
@@ -398,7 +404,7 @@ html, body,ul,li {
     font-size: 0.7rem;
     text-decoration: none;
     padding: 10px
-    
+
 }
 
 .footer .footer_bottom ul li a{
@@ -474,6 +480,4 @@ html, body,ul,li {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 0.8rem;
     color: rgb(86, 123, 149);
-    justify-content: 
-
-
+    justify-content:
