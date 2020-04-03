@@ -426,7 +426,7 @@ html, body,ul,li {
     border-width: 0.5px;
     border-spacing: 10px;
     padding-left: 18px;
-    
+
 }
 
 .footer-subscribe .footer-small-menu-2 {
@@ -498,3 +498,71 @@ html, body,ul,li {
     font-size: 0.8rem;
     color: rgb(86, 123, 149);
     vertical-align: middle;
+}
+
+
+
+.callout strong{
+  display:block;
+  text-align: center;
+}
+
+.callout-main{
+  padding: 20px;
+}
+
+.callout p{
+
+  background-color: green;
+  display: block;
+  width:50px;
+  height: 1px;
+  margin: auto;
+
+}
+
+.colored{
+  color:rgb(86, 123, 149);
+}
+
+.editor-item{
+  display: flex;
+
+}
+
+.editor-item img{
+  display: block;
+  margin: 9px;
+  height:70px;
+}
+ .editor-pick{
+  position:absolute;
+  width:270px;
+  height: 600px;
+  right:14px;
+  top:1790px;
+  padding-right: 12px;
+}
+
+.editor-item p{
+
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+.editor-pick h3{
+  border-bottom: solid 1px #999;
+  padding-bottom: 20px;
+  font-size: 0.9em;
+}
+
+.footer-top-links li:hover{
+  text-decoration: underline;
+    color:rgb(86, 123, 149);
+    cursor: pointer;
+}
+.doubled {padding-top: 51px;}
+
+.border-top{
+  border-top: solid 1.8px #999;
+}
