@@ -731,47 +731,4 @@ border-top: solid 1px #ccc;
     color: rgb(86, 123, 149);
     justify-content: 
 
-<<<<<<< HEAD
-.main_article .article span{
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.9vw;
-}
 
-.border-top{
-  border-top: solid 2px #ccc;
-  padding-top: 22px;
-
-}
-
-.doubled img {
-  display: inline-block;
-  margin-top: 45px;
-}
-
-.base {
-
-margin: 10px auto;
-width:90%;
-
-}
-
-.base-link{
-  
-  display: flex;
-  justify-content: space-between;
-
-}
-
-.base-link li{
-list-style: none;
-
-}
-
-.base-link a{
-text-decoration: none;
-
-}
-
-=======
-}
->>>>>>> ad28fe8d452ebc92756ddb120b039467aad37646
