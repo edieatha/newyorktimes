@@ -1,4 +1,4 @@
-html, body {
+html, body,ul,li {
   margin: 0px;
   padding: 0px;
 }
@@ -334,7 +334,7 @@ font-weight: 500;
    padding: 10PX;
 }
 .space-astronomy-container .sidebar p{
-   padding: 0px 10px;
+   padding: 12px 10px;
 border-top: solid 1px #ccc;
 }
 
@@ -417,3 +417,39 @@ line-height: 22px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.9vw;
 }
+
+.border-top{
+  border-top: solid 2px #ccc;
+  padding-top: 22px;
+
+}
+
+.doubled img {
+  display: inline-block;
+  margin-top: 45px;
+}
+
+.base {
+
+margin: 10px auto;
+width:90%;
+
+}
+
+.base-link{
+  
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.base-link li{
+list-style: none;
+
+}
+
+.base-link a{
+text-decoration: none;
+
+}
+
