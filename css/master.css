@@ -1,7 +1,7 @@
 
-html, body,ul,li {
-  margin: 0px;
-  padding: 0px;
+html, body, ul,li {
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -38,16 +38,12 @@ html, body,ul,li {
   position: absolute;
   justify-content: space-between;
   align-items: flex-start;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
   border-bottom: solid 1px #ccc;
   display: flex;
   padding-top: 5px;
-}
-
-.top-left-buttons {
-  width: 250px;
 }
 
 .menu {
@@ -89,6 +85,7 @@ html, body,ul,li {
   display: flex;
   align-content: center;
   justify-content: center;
+  width: 250px;
 }
 
 .main_article {
@@ -192,12 +189,12 @@ html, body,ul,li {
   margin-right: 190px;
 }
 
-.main_article .author #by-line{
+.main_article .author #by-line {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
 }
 
-.main_article .date_socials #date{
+.main_article .date_socials #date {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 500;
   font-size: 1vw;
@@ -210,33 +207,30 @@ html, body,ul,li {
 }
 
 .description {
- width: 80%;
+  width: 80%;
   margin: 70px auto;
 }
 
-.description .grid-container{
+.description .grid-container {
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-size: 100% 100%;
   display: grid;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.9vw;
   grid-gap: 10px 10px;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 25% 25% 25% 25%;
-  width: 75%;
-  margin: 80px auto;
-  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
-  background-size: 100% 100%;
   height: 630px;
-  width: 1000px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.9vw;
   line-height: 1.2vw;
-
+  margin: 80px auto;
+  width: 1000px;
 }
 
 .grid-container .grid-item-1a {
-
-  grid-row-start: 1;
-  grid-row-end: 1;
-  grid-column-start: 1;
   grid-column-end: 1;
+  grid-column-start: 1;
+  grid-row-end: 1;
+  grid-row-start: 1;
 }
 
 .grid-container .grid-item-1 {
@@ -247,19 +241,18 @@ html, body,ul,li {
 }
 
 .grid-container .grid-item-2a {
-
   grid-row-start: 1;
   grid-row-end: 1;
   grid-column-start: 2;
   grid-column-end: 2;
 }
+
 .grid-container .grid-item-2 {
   grid-row-start: 2;
   grid-row-end: 2;
   grid-column-start: 2;
   grid-column-end: 2;
 }
-
 
 .grid-container .grid-item-3 {
   grid-row-start: 2;
@@ -289,280 +282,267 @@ html, body,ul,li {
   grid-column-end: 2;
 }
 
-    .space-astronomy{
-    float:left;
-    width: 70%;
-    min-height: 500px;
-    }
-    .sidebar{
-    float:right;
-    width: 30%;
-    min-height: 500px;
-    color: rgb(18, 18, 18);
-    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-    font-size: 1.125rem;
-    font-weight: 500;
-
-    }
-    .space-astronomy-container{
-    width: 90%;
-    margin: auto;
-    }
-
-   .sidebar h3{
-    padding: 10PX;
-    }
-
-
-
-.sidebar p{
-    padding: 0px 10px;
-    border-top: solid 1px #ccc;
-    }
-
-
-
-    .clear{
-    clear: both;}
-    .stories{
-    }
-.list-of-stories {
-    padding: 0px;
-    margin: 0px;
-    padding:5px;
-    width:30%;
-    float: left;
-    }
-.list-of-stories img {
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    }
-.list-of-stories span {
-    display: block;
-    color: rgb(18, 18, 18);
-    font-weight: bold;
-    font-size: 1.125rem;
-    line-height: 22px;
-    }
-.date-day{
-    text-align: left;
-    display: block;
-    color: #888;
-    font-size:0.6em;
-    }
-.tiny{
-    text-align:right;
-    display: block;
-    color: #888;
-    font-size: 0.4em;
-    }
-.end_icons .comments_socials .read_comments {
-    background: rgb(86, 123, 149);
-    border-radius: 3px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-weight: bold;
-    margin-right: 180px;
-    margin-top: 15px;
-    padding: 12px 60px 12px;
-    vertical-align: middle;
-    }
-
-    .end_icons .comments_socials {
-        display: flex;
-    }
-.end_icons .socials2 {
-    }
-.socials2 ul {
-    padding: 0px;
-    width: 150px;
-    float: right;
-    }
-.socials2 ul li {
-    background-color: gainsboro;
-    border-radius: 100%;
-    display: inline-block;
-    height: 13px;
-    list-style: none;
-    margin: 5px;
-    padding: 5px;
-    width: 13px;
-    }
-
-
-.main_article .article span{
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 0.9vw;
-    }
-
-.footer .footer_bottom ul li{
-    list-style: none;
-    display: inline-block;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 0.7rem;
-    text-decoration: none;
-    padding: 10px
-
+.space-astronomy {
+  float: left;
+  min-height: 500px;
+  width: 70%;
 }
 
-.footer .footer_bottom ul li a{
-    text-decoration: none;
-    color: gray;
+.sidebar {
+  float: right;
+  width: 30%;
+  min-height: 500px;
+  color: rgb(18, 18, 18);
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.space-astronomy-container {
+  margin: auto;
+  width: 90%;
+}
+
+.sidebar h3 {
+  padding: 10px;
+}
+
+.sidebar p {
+  padding: 0 10px;
+  border-top: solid 1px #ccc;
+}
+
+.clear {
+  clear: both;
+}
+
+.list-of-stories {
+  float: left;
+  margin: 0;
+  padding: 0;
+  padding: 5px;
+  width: 30%;
+}
+
+.list-of-stories img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.list-of-stories span {
+  color: rgb(18, 18, 18);
+  display: block;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.date-day {
+  text-align: left;
+  display: block;
+  color: #888;
+  font-size: 0.6em;
+}
+
+.tiny {
+  text-align: right;
+  display: block;
+  color: #888;
+  font-size: 0.4em;
+}
+
+.end_icons .comments_socials .read_comments {
+  background: rgb(86, 123, 149);
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 180px;
+  margin-top: 15px;
+  padding: 12px 60px 12px;
+  vertical-align: middle;
+}
+
+.end_icons .comments_socials {
+  display: flex;
+}
+
+.socials2 ul {
+  padding: 0;
+  width: 150px;
+  float: right;
+}
+
+.socials2 ul li {
+  background-color: gainsboro;
+  border-radius: 100%;
+  display: inline-block;
+  height: 13px;
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  width: 13px;
+}
+
+.main_article .article span {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.9vw;
+}
+
+.footer .footer_bottom ul li {
+  display: inline-block;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.7rem;
+  list-style: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer .footer_bottom ul li a {
+  color: gray;
+  text-decoration: none;
 }
 
 .footer .footer_bottom {
-    text-align: center;
-    border-top: solid;
-    border-color: gray;
-    border-width: 0.3px;
-    margin-top: 10px;
-}
-
-.footer .footer-top-links  .footer-subscribe {
-    border-left: solid;
-    border-color: #B9B9B9;
-    border-width: 0.5px;
-    border-spacing: 10px;
-    padding-left: 18px;
-
-}
-
-.footer-subscribe .footer-small-menu-2 {
-    border-top: solid;
-    border-color: #B9B9B9;
-    border-width: 0.5px;
-    border-spacing: 10px;
-    padding-top: 10px;
-
- }
-
- .footer-subscribe .footer-small-menu {
-      padding-bottom: 10px;
-      padding-top: 10px;
-
- }
-
- .footer-subscribe .footer-icon-menu {
-   font-family: 'Libre Franklin', sans-serif;
-   font-weight: 900;
-
-
- }
-
-
-.footer .footer-top-links {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 40px;
-    margin-left: 40px;
-    font-size: 0.8rem;
-    line-height: 1.5rem;
-    font-family: 'Libre Franklin', sans-serif;
-
-  }
-
-
-.space-astronomy-container .sidebar h3{
-   padding: 10px;
-}
-
-.space-astronomy-container .sidebar p {
-   border-top: solid 1px #ccc;
-   padding: 12px 10px;
-
-}
-
-.footer .footer-top-links ul li {
-    list-style: none;
-    font-family: 'Libre Franklin', sans-serif;
-
-
-}
-
-.footer-top-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-    margin-left: 40px;
-    margin-right: 40px;
-    border-top: solid;
-    border-color: #B9B9B9;
-    border-top-style: double;
-    border-width: 80%;
-}
-
-.footer-top-header .go-to-home-page span{
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    font-size: 0.8rem;
-    color: rgb(86, 123, 149);
-    vertical-align: middle;
-}
-
-
-
-.callout strong{
-  display:block;
+  border-color: gray;
+  border-top: solid;
+  border-width: 0.3px;
+  margin-top: 10px;
   text-align: center;
 }
 
-.callout-main{
+.footer .footer-top-links .footer-subscribe {
+  border-left: solid;
+  border-color: #b9b9b9;
+  border-width: 0.5px;
+  border-spacing: 10px;
+  padding-left: 18px;
+}
+
+.footer-subscribe .footer-small-menu-2 {
+  border-color: #b9b9b9;
+  border-spacing: 10px;
+  border-top: solid;
+  border-width: 0.5px;
+  padding-top: 10px;
+}
+
+.footer-subscribe .footer-small-menu {
+  padding-bottom: 10px;
+  padding-top: 10px;
+
+ }
+
+.footer-subscribe .footer-icon-menu {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 900;
+}
+
+.footer .footer-top-links {
+  display: flex;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.8rem;
+  justify-content: space-between;
+  line-height: 1.5rem;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.space-astronomy-container .sidebar h3 {
+  padding: 10px;
+}
+
+.space-astronomy-container .sidebar p {
+  border-top: solid 1px #ccc;
+  padding: 12px 10px;
+}
+
+.footer .footer-top-links ul li {
+  font-family: 'Libre Franklin', sans-serif;
+  list-style: none;
+}
+
+.footer-top-header {
+  border-color: #b9b9b9;
+  border-top-style: double;
+  border-width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px 0;
+}
+
+.footer-top-header .go-to-home-page span {
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+
+.callout strong {
+  display: block;
+  text-align: center;
+}
+
+.callout-main {
   padding: 20px;
 }
 
-.callout p{
-
+.callout p {
   background-color: green;
   display: block;
-  width:50px;
+  width: 50px;
   height: 1px;
   margin: auto;
-
 }
 
-.colored{
-  color:rgb(86, 123, 149);
+.colored {
+  color: rgb(86, 123, 149);
 }
 
-.editor-item{
+.editor-item {
   display: flex;
-
 }
 
-.editor-item img{
+.editor-item img {
   display: block;
   margin: 9px;
-  height:70px;
+  height: 70px;
 }
- .editor-pick{
-  position:absolute;
-  width:270px;
+
+.editor-pick {
+  position: absolute;
+  width: 270px;
   height: 600px;
-  right:14px;
-  top:1790px;
+  right: 14px;
+  top: 1790px;
   padding-right: 12px;
 }
 
-.editor-item p{
-
+.editor-item p {
   padding: 10px;
   font-size: 0.9em;
 }
 
-.editor-pick h3{
+.editor-pick h3 {
   border-bottom: solid 1px #999;
   padding-bottom: 20px;
   font-size: 0.9em;
 }
 
-.footer-top-links li:hover{
+.footer-top-links li:hover {
   text-decoration: underline;
-    color:rgb(86, 123, 149);
-    cursor: pointer;
+  color: rgb(86, 123, 149);
+  cursor: pointer;
 }
-.doubled {padding-top: 51px;}
 
-.border-top{
+.doubled {
+  padding-top: 51px;
+}
+
+.border-top {
   border-top: solid 1.8px #999;
 }
