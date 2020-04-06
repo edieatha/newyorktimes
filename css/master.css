@@ -181,7 +181,7 @@ html body ul li {
   line-height: 22px;
 }
 
-.main_image figcaption span {
+.main_image caption span {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 2vh;
   width: 60%;
