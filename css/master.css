@@ -173,6 +173,14 @@ html body ul li {
   width: 80%;
 }
 
+.list-of-stories span {
+  color: rgb(18, 18, 18);
+  display: block;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 22px;
+}
+
 .main_image figcaption span {
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 2vh;
@@ -198,6 +206,19 @@ html body ul li {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 500;
   font-size: 1vw;
+}
+
+.editor-item p {
+  padding: 10px;
+  font-size: 0.9em;
+}
+
+.callout p {
+  background-color: green;
+  display: block;
+  width: 50px;
+  height: 1px;
+  margin: auto;
 }
 
 .main_article .article p {
@@ -325,14 +346,6 @@ html body ul li {
   width: 100%;
 }
 
-.list-of-stories span {
-  color: rgb(18, 18, 18);
-  display: block;
-  font-size: 1.125rem;
-  font-weight: bold;
-  line-height: 22px;
-}
-
 .date-day {
   text-align: left;
   display: block;
@@ -386,6 +399,12 @@ html body ul li {
   font-size: 0.9vw;
 }
 
+.footer-top-links li:hover {
+  text-decoration: underline;
+  color: rgb(86, 123, 149);
+  cursor: pointer;
+}
+
 .footer .footer_bottom ul li {
   display: inline-block;
   font-family: 'Libre Franklin', sans-serif;
@@ -427,8 +446,7 @@ html body ul li {
 .footer-subscribe .footer-small-menu {
   padding-bottom: 10px;
   padding-top: 10px;
-
- }
+}
 
 .footer-subscribe .footer-icon-menu {
   font-family: 'Libre Franklin', sans-serif;
@@ -443,6 +461,12 @@ html body ul li {
   line-height: 1.5rem;
   margin-left: 40px;
   margin-right: 40px;
+}
+
+.editor-pick h3 {
+  border-bottom: solid 1px #999;
+  padding-bottom: 20px;
+  font-size: 0.9em;
 }
 
 .space-astronomy-container .sidebar h3 {
@@ -485,14 +509,6 @@ html body ul li {
   padding: 20px;
 }
 
-.callout p {
-  background-color: green;
-  display: block;
-  width: 50px;
-  height: 1px;
-  margin: auto;
-}
-
 .colored {
   color: rgb(86, 123, 149);
 }
@@ -514,23 +530,6 @@ html body ul li {
   right: 14px;
   top: 1790px;
   padding-right: 12px;
-}
-
-.editor-item p {
-  padding: 10px;
-  font-size: 0.9em;
-}
-
-.editor-pick h3 {
-  border-bottom: solid 1px #999;
-  padding-bottom: 20px;
-  font-size: 0.9em;
-}
-
-.footer-top-links li:hover {
-  text-decoration: underline;
-  color: rgb(86, 123, 149);
-  cursor: pointer;
 }
 
 .doubled {
