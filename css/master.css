@@ -1,5 +1,5 @@
 
-html, body, ul,li {
+html body ul li {
   margin: 0;
   padding: 0;
 }
@@ -94,7 +94,7 @@ html, body, ul,li {
 }
 
 .socials ul {
-  padding: 0px;
+  padding: 0;
   width: 250px;
   float: right;
 }
@@ -307,11 +307,6 @@ html, body, ul,li {
   padding: 10px;
 }
 
-.sidebar p {
-  padding: 0 10px;
-  border-top: solid 1px #ccc;
-}
-
 .clear {
   clear: both;
 }
@@ -467,7 +462,6 @@ html, body, ul,li {
 .footer-top-header {
   border-color: #b9b9b9;
   border-top-style: double;
-  border-width: 80%;
   display: flex;
   justify-content: space-between;
   margin-left: 40px;
