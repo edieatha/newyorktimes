@@ -35,15 +35,17 @@ html, body,ul,li {
 }
 
 .top-menubar {
-  position: absolute;
+  background-color: #fff;
+  position: fixed;
+  display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   width: 100%;
   border-bottom: solid 1px #ccc;
-  display: flex;
   padding-top: 5px;
+  z-index: 2000;
 }
 
 .top-left-buttons {
@@ -333,6 +335,12 @@ html, body,ul,li {
     width:30%;
     float: left;
     }
+
+a {
+  text-decoration: none;
+  color :#000;
+}
+
 .list-of-stories img {
     padding: 0px;
     margin: 0px;
@@ -452,11 +460,12 @@ html, body,ul,li {
  }
 
 
-.footer .footer-top-links {
+.footer-top-links {
     display: flex;
     justify-content: space-between;
     margin-right: 40px;
     margin-left: 40px;
+    margin-bottom: 80px;
     font-size: 0.8rem;
     line-height: 1.5rem;
     font-family: 'Libre Franklin', sans-serif;
@@ -565,4 +574,12 @@ html, body,ul,li {
 
 .border-top{
   border-top: solid 1.8px #999;
+}
+
+.footer_bottom{
+  background-color: #fff;
+  width:100%;
+  position: fixed;
+  bottom: 0px;
+  z-index: 2000;
 }
