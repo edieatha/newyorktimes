@@ -6,8 +6,8 @@ html body ul li {
 
 @font-face {
   font-family: "nyt-cheltenham";
-  src: url("https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.d53eaf3b784c4b50d1c331e1278cda67.woff") format("woff");
   font-display: swap;
+  src: url("https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.d53eaf3b784c4b50d1c331e1278cda67.woff") format("woff");
 }
 
 @font-face {
@@ -336,96 +336,30 @@ html body ul li {
   width: 90%;
 }
 
-
 .list-of-stories {
-    padding: 0px;
-    margin: 0px;
-    padding:5px;
-    width:30%;
-    float: left;
-    }
+  float: left;
+  margin: 0;
+  padding: 5px;
+  width: 30%;
+}
 
 a {
   text-decoration: none;
-  color :#000;
-}
-
-.list-of-stories img {
-    padding: 0px;
-    margin: 0px;
-    width: 100%;
-    }
-.list-of-stories span {
-    display: block;
-    color: rgb(18, 18, 18);
-    font-weight: bold;
-    font-size: 1.125rem;
-    line-height: 22px;
-    }
-.date-day{
-    text-align: left;
-    display: block;
-    color: #888;
-    font-size:0.6em;
-    }
-.tiny{
-    text-align:right;
-    display: block;
-    color: #888;
-    font-size: 0.4em;
-    }
-.end_icons .comments_socials .read_comments {
-    background: rgb(86, 123, 149);
-    border-radius: 3px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-weight: bold;
-    margin-right: 180px;
-    margin-top: 15px;
-    padding: 12px 60px 12px;
-    vertical-align: middle;
-    }
-
-    .end_icons .comments_socials {
-        display: flex;
-    }
-.end_icons .socials2 {
-    }
-.socials2 ul {
-    padding: 0px;
-    width: 150px;
-    float: right;
-    }
-.socials2 ul li {
-    background-color: gainsboro;
-    border-radius: 100%;
-    display: inline-block;
-    height: 13px;
-    list-style: none;
-    margin: 5px;
-    padding: 5px;
-    width: 13px;
-    }
-
-.list-of-stories img {
-  padding: 0;
-  margin: 0;
-  width: 100%;
+  color: #0000;
 }
 
 .date-day {
-  text-align: left;
-  display: block;
   color: #888;
+  display: block;
   font-size: 0.6em;
+  text-align: left;
 }
 
 .tiny {
-  text-align: right;
-  display: block;
   color: #888;
+  display: block;
   font-size: 0.4em;
+  text-align: right;
 }
 
 .end_icons .comments_socials .read_comments {
@@ -452,7 +386,6 @@ a {
 }
 
 .socials2 ul li {
-  background-color: gainsboro;
   border-radius: 100%;
   display: inline-block;
   height: 13px;
@@ -460,6 +393,12 @@ a {
   margin: 5px;
   padding: 5px;
   width: 13px;
+}
+
+.list-of-stories img {
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 .main_article .article span {
@@ -471,6 +410,14 @@ a {
   text-decoration: underline;
   color: rgb(86, 123, 149);
   cursor: pointer;
+}
+
+.footer_bottom {
+  background-color: #fff;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 2000;
 }
 
 .footer .footer_bottom ul li {
@@ -526,21 +473,19 @@ a {
 }
 
 .footer-top-links {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 80px;
-    font-size: 0.8rem;
-    line-height: 1.5rem;
-    font-family: 'Libre Franklin', sans-serif;
-
-  }
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  font-family: 'Libre Franklin', sans-serif;
+}
 
 .editor-pick h3 {
   border-bottom: solid 1px #999;
   padding-bottom: 20px;
   font-size: 0.9em;
 }
-
 
 .space-astronomy-container .sidebar p {
   border-top: solid 1px #ccc;
@@ -549,12 +494,10 @@ a {
 
 .space-astronomy-container .sidebar h4 {
   font-family: 'Libre Franklin', sans-serif;
-
 }
 
 .space-astronomy-container .stories h4 {
   font-family: 'Libre Franklin', sans-serif;
-
 }
 
 .footer .footer-top-links ul li {
@@ -617,12 +560,4 @@ a {
 
 .border-top {
   border-top: solid 1.8px #999;
-}
-
-.footer_bottom{
-  background-color: #fff;
-  width:100%;
-  position: fixed;
-  bottom: 0px;
-  z-index: 2000;
 }
