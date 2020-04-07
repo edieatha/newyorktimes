@@ -62,14 +62,14 @@ html body ul li {
 .title {
   display: inline-block;
   font-size: 0.8em;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: bold;
   margin: 4px 10px 4px;
   margin-top: 8px;
 }
 
 .subscribe-content {
-  width: 200px;
+  width: 250px;
 }
 
 .subscribe {
@@ -306,8 +306,12 @@ html body ul li {
 }
 
 .space-astronomy {
-  float: left;
+  display: flex;
   min-height: 500px;
+  width: 100%;
+}
+
+.stories {
   width: 70%;
 }
 
@@ -324,16 +328,8 @@ html body ul li {
 .space-astronomy-container {
   margin: auto;
   width: 90%;
-  display: flex;
 }
 
-.sidebar h3 {
-  padding: 10px;
-}
-
-.clear {
-  clear: both;
-}
 
 .list-of-stories {
     padding: 0px;
@@ -519,11 +515,13 @@ a {
   font-weight: 900;
 }
 
+.footer-subscribe ul {
+  padding-left: 0;
+}
+
 .footer-top-links {
     display: flex;
     justify-content: space-between;
-    margin-right: 40px;
-    margin-left: 40px;
     margin-bottom: 80px;
     font-size: 0.8rem;
     line-height: 1.5rem;
@@ -537,13 +535,20 @@ a {
   font-size: 0.9em;
 }
 
-.space-astronomy-container .sidebar h3 {
-  padding: 10px;
-}
 
 .space-astronomy-container .sidebar p {
   border-top: solid 1px #ccc;
   padding: 12px 10px;
+}
+
+.space-astronomy-container .sidebar h4 {
+  font-family: 'Libre Franklin', sans-serif;
+
+}
+
+.space-astronomy-container .stories h4 {
+  font-family: 'Libre Franklin', sans-serif;
+
 }
 
 .footer .footer-top-links ul li {
