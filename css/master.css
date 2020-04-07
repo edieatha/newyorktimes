@@ -324,6 +324,7 @@ html body ul li {
 .space-astronomy-container {
   margin: auto;
   width: 90%;
+  display: flex;
 }
 
 .sidebar h3 {
