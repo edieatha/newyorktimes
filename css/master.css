@@ -97,8 +97,14 @@ html body ul li {
 
 .socials ul {
   padding: 0;
-  width: 250px;
+  width: 150px;
   float: right;
+}
+
+.socials3 {
+  display: flex;
+  width: 80px;
+  margin-top: 20px;
 }
 
 .socials ul li {
@@ -118,12 +124,12 @@ html body ul li {
   justify-content: space-between;
 }
 
-.socials #bookmark-icon {
+.socials3 #bookmark-icon {
   width: 13px;
   height: 17px;
 }
 
-.socials #messages {
+.socials3 .messages {
   width: 30px;
   height: 30px;
   display: inline-block;
@@ -195,12 +201,12 @@ html body ul li {
 }
 
 .date_socials #date {
-  margin-top: 30px;
+  margin-top: 15px;
   margin-right: 190px;
 }
 
 .main_article .author #by-line {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-weight: 700;
 }
 
