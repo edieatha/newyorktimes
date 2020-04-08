@@ -326,9 +326,7 @@ html body ul li {
   width: 30%;
   min-height: 500px;
   color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 1.125rem;
-  font-weight: 500;
 }
 
 .space-astronomy-container {
@@ -345,7 +343,7 @@ html body ul li {
 
 a {
   text-decoration: none;
-  color: #0000;
+  color: #000;
 }
 
 .date-day {
@@ -560,4 +558,8 @@ a {
 
 .border-top {
   border-top: solid 1.8px #999;
+}
+
+figure {
+  margin-left: 0;
 }
