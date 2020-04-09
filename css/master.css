@@ -4,36 +4,6 @@ html body ul li {
   padding: 0;
 }
 
-@font-face {
-  font-display: swap;
-  font-family: "nyt-cheltenham";
-  src: url("https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.d53eaf3b784c4b50d1c331e1278cda67.woff") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "nyt-franklin";
-  font-style: normal;
-  font-weight: 700;
-  src: url("https://g1.nyt.com/fonts/family/franklin/franklin-normal-700.a192db310935d8a882832e2cc83f2119.woff") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "nyt-franklin";
-  font-style: normal;
-  font-weight: 700;
-  src: url("https://g1.nyt.com/fonts/family/franklin/franklin-normal-500.d6c06a3d84a57100edad5bf9b84ff739.woff2") format("woff");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "nyt-imperial";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2") format("woff2");
-}
-
 .top-menubar {
   align-items: flex-start;
   background-color: #fff;
@@ -73,8 +43,8 @@ html body ul li {
 
 .subscribe {
   background: rgb(86, 123, 149);
-  border-radius: 3px;
   border: none;
+  border-radius: 3px;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
@@ -123,7 +93,7 @@ html body ul li {
   vertical-align: top;
 }
 
-.socials3 #bookmark-icon {
+.socials3 .bookmark-icon {
   height: 17px;
   width: 13px;
 }
@@ -142,17 +112,17 @@ html body ul li {
   font-family: helvetica, arial, sans-serif;
   font-size: 0.6rem;
   margin: 7px;
-  vertical-align: -moz-middle-with-baseline;
 }
 
 .socials ul div {
   background-color: white;
 }
 
-.main_heading h1 {
-  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+h1 {
+  font-family: 'Noto Serif', serif;
   font-size: 3vw;
-  font-weight: 500;
+  font-weight: 700;
+  font-style: italic;
 }
 
 .main_heading {
@@ -175,9 +145,16 @@ html body ul li {
 
 .main_image figcaption {
   color: dimgray;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 2.1vh;
-  width: 80%;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3vw;
+  width: 90%;
+}
+
+.image-video figcaption {
+  color: dimgray;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  width: 90%;
 }
 
 .list-of-stories span {
@@ -188,28 +165,27 @@ html body ul li {
   line-height: 22px;
 }
 
-.main_image caption span {
-  color: gray;
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 2vh;
-  width: 60%;
+.description span {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .date_socials {
   display: flex;
 }
 
-.date_socials #date {
+.date_socials .date {
   margin-right: 190px;
   margin-top: 15px;
 }
 
-.main_article .author #by-line {
+.main_article .author .by-line {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 700;
 }
 
-.main_article .date_socials #date {
+.main_article .date_socials .date {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 1vw;
   font-weight: 500;
@@ -228,9 +204,13 @@ html body ul li {
   width: 50px;
 }
 
+.callout {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
 .main_article .article p {
-  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
-  font-size: 1.25rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
   line-height: 1.9rem;
 }
 
@@ -329,14 +309,14 @@ html body ul li {
 }
 
 .space-astronomy-container {
+  font-family: 'Cormorant Garamond', serif;
   margin: auto;
   width: 90%;
 }
 
 .list-of-stories {
   float: left;
-  margin: 0;
-  padding: 5px;
+  margin: 0 5px;
   width: 30%;
 }
 
@@ -361,8 +341,8 @@ a {
 
 .end_icons .comments_socials .read_comments {
   background: rgb(86, 123, 149);
-  border-radius: 3px;
   border: none;
+  border-radius: 3px;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
@@ -383,6 +363,7 @@ a {
 }
 
 .socials2 ul li {
+  background-color: gainsboro;
   border-radius: 100%;
   display: inline-block;
   height: 13px;
@@ -399,8 +380,9 @@ a {
 }
 
 .main_article .article span {
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 0.9vw;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .footer-top-links li:hover {
@@ -478,8 +460,9 @@ a {
   margin-bottom: 80px;
 }
 
-.editor-pick h3 {
+h3 {
   border-bottom: solid 1px #999;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 0.9em;
   padding-bottom: 20px;
 }
@@ -489,11 +472,12 @@ a {
   padding: 12px 10px;
 }
 
-.space-astronomy-container .sidebar h4 {
+.version {
   font-family: 'Libre Franklin', sans-serif;
+  font-size: 10px;
 }
 
-.space-astronomy-container .stories h4 {
+h4 {
   font-family: 'Libre Franklin', sans-serif;
 }
 
@@ -561,4 +545,8 @@ a {
 
 figure {
   margin-left: 0;
+}
+
+aside {
+  font-family: 'Cormorant Garamond', serif;
 }
