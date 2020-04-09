@@ -5,46 +5,46 @@ html body ul li {
 }
 
 @font-face {
-  font-family: "nyt-cheltenham";
   font-display: swap;
+  font-family: "nyt-cheltenham";
   src: url("https://g1.nyt.com/fonts/family/cheltenham/cheltenham-italic-700.d53eaf3b784c4b50d1c331e1278cda67.woff") format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "nyt-franklin";
+  font-style: normal;
+  font-weight: 700;
   src: url("https://g1.nyt.com/fonts/family/franklin/franklin-normal-700.a192db310935d8a882832e2cc83f2119.woff") format("woff");
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
 }
 
 @font-face {
+  font-display: swap;
   font-family: "nyt-franklin";
-  src: url("https://g1.nyt.com/fonts/family/franklin/franklin-normal-500.d6c06a3d84a57100edad5bf9b84ff739.woff2") format("woff");
   font-style: normal;
   font-weight: 700;
-  font-display: swap;
+  src: url("https://g1.nyt.com/fonts/family/franklin/franklin-normal-500.d6c06a3d84a57100edad5bf9b84ff739.woff2") format("woff");
 }
 
 @font-face {
+  font-display: swap;
   font-family: "nyt-imperial";
-  src: url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
-  font-display: swap;
+  src: url("https://g1.nyt.com/fonts/family/imperial/imperial-normal-400.2531995fefd3b997f9c4d564ebe89268.woff2") format("woff2");
 }
 
 .top-menubar {
+  align-items: flex-start;
   background-color: #fff;
-  position: fixed;
+  border-bottom: solid 1px #ccc;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  top: 0;
   left: 0;
-  width: 100%;
-  border-bottom: solid 1px #ccc;
   padding-top: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 2000;
 }
 
@@ -61,11 +61,10 @@ html body ul li {
 
 .title {
   display: inline-block;
-  font-size: 0.8em;
   font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.8em;
   font-weight: bold;
   margin: 4px 10px 4px;
-  margin-top: 8px;
 }
 
 .subscribe-content {
@@ -74,8 +73,8 @@ html body ul li {
 
 .subscribe {
   background: rgb(86, 123, 149);
-  border: none;
   border-radius: 3px;
+  border: none;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
@@ -84,66 +83,66 @@ html body ul li {
 }
 
 .top-left-buttons {
-  display: flex;
   align-content: center;
+  display: flex;
   justify-content: center;
   width: 250px;
 }
 
 .main_article {
-  max-width: 600px;
   margin: 20px auto;
+  max-width: 600px;
 }
 
 .socials ul {
+  float: right;
   padding: 0;
   width: 150px;
-  float: right;
 }
 
 .socials3 {
   display: flex;
-  width: 80px;
   margin-top: 20px;
+  width: 80px;
 }
 
 .socials ul li {
-  list-style: none;
-  display: inline-block;
   background-color: gainsboro;
-  padding: 5px;
-  margin: 5px;
   border-radius: 100%;
-  width: 13px;
+  display: inline-block;
   height: 13px;
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  width: 13px;
 }
 
 .socials span {
-  vertical-align: top;
   display: inline-block;
   justify-content: space-between;
+  vertical-align: top;
 }
 
 .socials3 #bookmark-icon {
-  width: 13px;
   height: 17px;
+  width: 13px;
 }
 
 .socials3 .messages {
-  width: 30px;
-  height: 30px;
-  display: inline-block;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRz-CbDz1uJKbYMkSzGXG6nOhOkZ5n6qXVq0YVVGTueWcfZUww_&usqp=CAU");
   background-size: 100% 100%;
-  vertical-align: text-bottom;
+  display: inline-block;
+  height: 30px;
   margin-left: 15px;
+  vertical-align: text-bottom;
+  width: 30px;
 }
 
-.socials ul div label {
-  vertical-align: -moz-middle-with-baseline;
-  font-size: 9px;
-  padding: 7px;
+.messages > label:nth-child(1) {
   font-family: helvetica, arial, sans-serif;
+  font-size: 0.6rem;
+  margin: 7px;
+  vertical-align: -moz-middle-with-baseline;
 }
 
 .socials ul div {
@@ -157,13 +156,13 @@ html body ul li {
 }
 
 .main_heading {
-  width: 80%;
   margin: auto;
+  width: 80%;
 }
 
 .main_content {
-  width: 75%;
   margin: 80px auto;
+  width: 75%;
 }
 
 .main_image {
@@ -175,9 +174,9 @@ html body ul li {
 }
 
 .main_image figcaption {
+  color: dimgray;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 2.1vh;
-  color: dimgray;
   width: 80%;
 }
 
@@ -190,10 +189,10 @@ html body ul li {
 }
 
 .main_image caption span {
+  color: gray;
   font-family: nyt-imperial, georgia, 'times new roman', times, serif;
   font-size: 2vh;
   width: 60%;
-  color: gray;
 }
 
 .date_socials {
@@ -201,8 +200,8 @@ html body ul li {
 }
 
 .date_socials #date {
-  margin-top: 15px;
   margin-right: 190px;
+  margin-top: 15px;
 }
 
 .main_article .author #by-line {
@@ -212,21 +211,21 @@ html body ul li {
 
 .main_article .date_socials #date {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-weight: 500;
   font-size: 1vw;
+  font-weight: 500;
 }
 
 .editor-item p {
-  padding: 10px;
   font-size: 0.9em;
+  padding: 10px;
 }
 
 .callout p {
   background-color: green;
   display: block;
-  width: 50px;
   height: 1px;
   margin: auto;
+  width: 50px;
 }
 
 .main_article .article p {
@@ -236,15 +235,15 @@ html body ul li {
 }
 
 .description {
-  width: 80%;
   margin: 70px auto;
+  width: 80%;
 }
 
 .description .grid-container {
   background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
   background-size: 100% 100%;
   display: grid;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   font-size: 0.9vw;
   grid-gap: 10px 10px;
   grid-template-columns: 25% 25% 25% 25%;
@@ -263,52 +262,52 @@ html body ul li {
 }
 
 .grid-container .grid-item-1 {
-  grid-row-start: 2;
-  grid-row-end: 2;
-  grid-column-start: 1;
   grid-column-end: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 2;
 }
 
 .grid-container .grid-item-2a {
-  grid-row-start: 1;
-  grid-row-end: 1;
-  grid-column-start: 2;
   grid-column-end: 2;
+  grid-column-start: 2;
+  grid-row-end: 1;
+  grid-row-start: 1;
 }
 
 .grid-container .grid-item-2 {
-  grid-row-start: 2;
-  grid-row-end: 2;
-  grid-column-start: 2;
   grid-column-end: 2;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-row-start: 2;
 }
 
 .grid-container .grid-item-3 {
-  grid-row-start: 2;
-  grid-row-end: 2;
-  grid-column-start: 3;
   grid-column-end: 3;
+  grid-column-start: 3;
+  grid-row-end: 2;
+  grid-row-start: 2;
 }
 
 .grid-container .grid-item-4 {
-  grid-row-start: 2;
-  grid-row-end: 2;
-  grid-column-start: 4;
   grid-column-end: 4;
+  grid-column-start: 4;
+  grid-row-end: 2;
+  grid-row-start: 2;
 }
 
 .grid-container .grid-item-5 {
-  grid-row-start: 4;
-  grid-row-end: 4;
-  grid-column-start: 1;
   grid-column-end: 1;
+  grid-column-start: 1;
+  grid-row-end: 4;
+  grid-row-start: 4;
 }
 
 .grid-container .grid-item-6 {
-  grid-row-start: 4;
-  grid-row-end: 4;
-  grid-column-start: 2;
   grid-column-end: 2;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  grid-row-start: 4;
 }
 
 .space-astronomy {
@@ -322,11 +321,11 @@ html body ul li {
 }
 
 .sidebar {
-  float: right;
-  width: 30%;
-  min-height: 500px;
   color: rgb(18, 18, 18);
+  float: right;
   font-size: 1.125rem;
+  min-height: 500px;
+  width: 30%;
 }
 
 .space-astronomy-container {
@@ -342,8 +341,8 @@ html body ul li {
 }
 
 a {
-  text-decoration: none;
   color: #000;
+  text-decoration: none;
 }
 
 .date-day {
@@ -378,9 +377,9 @@ a {
 }
 
 .socials2 ul {
+  float: right;
   padding: 0;
   width: 150px;
-  float: right;
 }
 
 .socials2 ul li {
@@ -394,8 +393,8 @@ a {
 }
 
 .list-of-stories img {
-  padding: 0;
   margin: 0;
+  padding: 0;
   width: 100%;
 }
 
@@ -405,9 +404,9 @@ a {
 }
 
 .footer-top-links li:hover {
-  text-decoration: underline;
   color: rgb(86, 123, 149);
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .footer_bottom {
@@ -441,10 +440,10 @@ a {
 }
 
 .footer .footer-top-links .footer-subscribe {
-  border-left: solid;
   border-color: #b9b9b9;
-  border-width: 0.5px;
+  border-left: solid;
   border-spacing: 10px;
+  border-width: 0.5px;
   padding-left: 18px;
 }
 
@@ -472,17 +471,17 @@ a {
 
 .footer-top-links {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 80px;
-  font-size: 0.8rem;
-  line-height: 1.5rem;
   font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.8rem;
+  justify-content: space-between;
+  line-height: 1.5rem;
+  margin-bottom: 80px;
 }
 
 .editor-pick h3 {
   border-bottom: solid 1px #999;
-  padding-bottom: 20px;
   font-size: 0.9em;
+  padding-bottom: 20px;
 }
 
 .space-astronomy-container .sidebar p {
@@ -539,17 +538,17 @@ a {
 
 .editor-item img {
   display: block;
-  margin: 9px;
   height: 70px;
+  margin: 9px;
 }
 
 .editor-pick {
-  position: absolute;
-  width: 270px;
   height: 600px;
+  padding-right: 12px;
+  position: absolute;
   right: 14px;
   top: 1790px;
-  padding-right: 12px;
+  width: 270px;
 }
 
 .doubled {
