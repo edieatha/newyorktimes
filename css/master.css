@@ -455,7 +455,7 @@ a {
   display: flex;
   font-family: 'Libre Franklin', sans-serif;
   font-size: 0.8rem;
-  justify-content: space-between;
+  justify-content: space-around;
   line-height: 1.5rem;
   margin-bottom: 80px;
 }
@@ -491,7 +491,7 @@ h4 {
   border-top-style: double;
   display: flex;
   justify-content: space-between;
-  margin-left: 40px;
+  margin-left: 70px;
   margin-right: 40px;
   padding: 10px 0;
 }
