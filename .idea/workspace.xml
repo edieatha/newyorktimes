@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8cc7aac-1cd0-4d0f-8ca9-ed4dca5fbc5a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/master.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/master.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="newyorktimes" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aGB1QvqYhzrd5BJz1wxTfXnzyN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="settings.editor.selected.configurable" value="device.file.explorer" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8cc7aac-1cd0-4d0f-8ca9-ed4dca5fbc5a" name="Default Changelist" comment="" />
+      <created>1586351835036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586351835036</updated>
+      <workItem from="1586351843738" duration="331000" />
+      <workItem from="1586352750121" duration="818000" />
+      <workItem from="1586378116483" duration="213000" />
+      <workItem from="1586378359653" duration="3841000" />
+      <workItem from="1586383144757" duration="36000" />
+      <workItem from="1586385906708" duration="3767000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="77" key="#Notifications" timestamp="1586353127397">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="77" key="#Notifications/0.23.1280.777@0.23.1280.777" timestamp="1586353127397" />
+    <state x="240" y="77" key="#Stylelint" timestamp="1586386744648">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="77" key="#Stylelint/0.23.1280.777@0.23.1280.777" timestamp="1586386744648" />
+    <state x="228" y="153" key="IDE.errors.dialog" timestamp="1586353166210">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="228" y="153" key="IDE.errors.dialog/0.23.1280.777@0.23.1280.777" timestamp="1586353166210" />
+    <state x="141" y="50" key="SettingsEditor" timestamp="1586379822490">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="141" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1586379822490" />
+    <state x="317" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1586386738880">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="317" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1586386738880" />
+    <state x="17" y="23" key="new project wizard" timestamp="1586381619482">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="17" y="23" key="new project wizard/0.23.1280.777@0.23.1280.777" timestamp="1586381619482" />
+  </component>
+</project>
