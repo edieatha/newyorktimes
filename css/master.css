@@ -1,0 +1,552 @@
+
+html body ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.top-menubar {
+  align-items: flex-start;
+  background-color: #fff;
+  border-bottom: solid 1px #ccc;
+  display: flex;
+  justify-content: space-between;
+  left: 0;
+  padding-top: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+}
+
+.menu {
+  display: block;
+  margin: 4px 10px 4px;
+}
+
+.search {
+  display: block;
+  font-size: 0.3em;
+  margin: 4px 10px 4px;
+}
+
+.title {
+  display: inline-block;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin: 4px 10px 4px;
+}
+
+.subscribe-content {
+  width: 250px;
+}
+
+.subscribe {
+  background: rgb(86, 123, 149);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 12px 8px;
+  vertical-align: middle;
+}
+
+.top-left-buttons {
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  width: 250px;
+}
+
+.main_article {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.socials ul {
+  float: right;
+  padding: 0;
+  width: 150px;
+}
+
+.socials3 {
+  display: flex;
+  margin-top: 20px;
+  width: 80px;
+}
+
+.socials ul li {
+  background-color: gainsboro;
+  border-radius: 100%;
+  display: inline-block;
+  height: 13px;
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  width: 13px;
+}
+
+.socials span {
+  display: inline-block;
+  justify-content: space-between;
+  vertical-align: top;
+}
+
+.socials3 .bookmark-icon {
+  height: 17px;
+  width: 13px;
+}
+
+.socials3 .messages {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRz-CbDz1uJKbYMkSzGXG6nOhOkZ5n6qXVq0YVVGTueWcfZUww_&usqp=CAU");
+  background-size: 100% 100%;
+  display: inline-block;
+  height: 30px;
+  margin-left: 15px;
+  vertical-align: text-bottom;
+  width: 30px;
+}
+
+.messages > label:nth-child(1) {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 0.6rem;
+  margin: 7px;
+}
+
+.socials ul div {
+  background-color: white;
+}
+
+h1 {
+  font-family: 'Noto Serif', serif;
+  font-size: 3vw;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.main_heading {
+  margin: auto;
+  width: 80%;
+}
+
+.main_content {
+  margin: 80px auto;
+  width: 75%;
+}
+
+.main_image {
+  margin-bottom: 60px;
+}
+
+.main_image img {
+  width: 100%;
+}
+
+.main_image figcaption {
+  color: dimgray;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.3vw;
+  width: 90%;
+}
+
+.image-video figcaption {
+  color: dimgray;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 14px;
+  width: 90%;
+}
+
+.list-of-stories span {
+  color: rgb(18, 18, 18);
+  display: block;
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 22px;
+}
+
+.description span {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.date_socials {
+  display: flex;
+}
+
+.date_socials .date {
+  margin-right: 190px;
+  margin-top: 15px;
+}
+
+.main_article .author .by-line {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 700;
+}
+
+.main_article .date_socials .date {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1vw;
+  font-weight: 500;
+}
+
+.editor-item p {
+  font-size: 0.85em;
+}
+
+.callout p {
+  background-color: green;
+  display: block;
+  height: 1px;
+  margin: auto;
+  width: 50px;
+}
+
+.callout {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.main_article .article p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+}
+
+.description {
+  margin: 70px auto;
+  width: 80%;
+}
+
+.description .grid-container {
+  background-image: url("https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png");
+  background-size: 100% 100%;
+  display: grid;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.9vw;
+  grid-gap: 10px 10px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  height: 700px;
+  line-height: 1.2vw;
+  margin: 80px auto;
+  width: 100%;
+}
+
+.grid-container .grid-item-1a {
+  grid-column-end: 1;
+  grid-column-start: 1;
+  grid-row-end: 1;
+  grid-row-start: 1;
+}
+
+.grid-container .grid-item-1 {
+  grid-column-end: 1;
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-row-start: 2;
+}
+
+.grid-container .grid-item-2a {
+  grid-column-end: 2;
+  grid-column-start: 2;
+  grid-row-end: 1;
+  grid-row-start: 1;
+}
+
+.grid-container .grid-item-2 {
+  grid-column-end: 2;
+  grid-column-start: 2;
+  grid-row-end: 2;
+  grid-row-start: 2;
+}
+
+.grid-container .grid-item-3 {
+  grid-column-end: 3;
+  grid-column-start: 3;
+  grid-row-end: 2;
+  grid-row-start: 2;
+}
+
+.grid-container .grid-item-4 {
+  grid-column-end: 4;
+  grid-column-start: 4;
+  grid-row-end: 2;
+  grid-row-start: 2;
+}
+
+.grid-container .grid-item-5 {
+  grid-column-end: 1;
+  grid-column-start: 1;
+  grid-row-end: 4;
+  grid-row-start: 4;
+}
+
+.grid-container .grid-item-6 {
+  grid-column-end: 2;
+  grid-column-start: 2;
+  grid-row-end: 4;
+  grid-row-start: 4;
+}
+
+.space-astronomy {
+  display: flex;
+  min-height: 500px;
+  width: 100%;
+}
+
+.stories {
+  width: 70%;
+}
+
+.sidebar {
+  color: rgb(18, 18, 18);
+  float: right;
+  font-size: 1.125rem;
+  min-height: 500px;
+  width: 30%;
+}
+
+.space-astronomy-container {
+  font-family: 'Cormorant Garamond', serif;
+  margin: auto;
+  width: 90%;
+}
+
+.list-of-stories {
+  float: left;
+  margin: 0 5px;
+  width: 30%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.date-day {
+  color: #888;
+  display: block;
+  font-size: 0.6em;
+  text-align: left;
+}
+
+.tiny {
+  color: #888;
+  display: block;
+  font-size: 0.4em;
+  text-align: right;
+}
+
+.end_icons .comments_socials .read_comments {
+  background: rgb(86, 123, 149);
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 180px;
+  margin-top: 15px;
+  padding: 12px 60px 12px;
+  vertical-align: middle;
+}
+
+.end_icons .comments_socials {
+  display: flex;
+}
+
+.socials2 ul {
+  float: right;
+  padding: 0;
+  width: 150px;
+}
+
+.socials2 ul li {
+  background-color: gainsboro;
+  border-radius: 100%;
+  display: inline-block;
+  height: 13px;
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+  width: 13px;
+}
+
+.list-of-stories img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main_article .article span {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer-top-links li:hover {
+  color: rgb(86, 123, 149);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer_bottom {
+  background-color: #fff;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 2000;
+}
+
+.footer .footer_bottom ul li {
+  display: inline-block;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.7rem;
+  list-style: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer .footer_bottom ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer .footer_bottom {
+  border-color: gray;
+  border-top: solid;
+  border-width: 0.3px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.footer .footer-top-links .footer-subscribe {
+  border-color: #b9b9b9;
+  border-left: solid;
+  border-spacing: 10px;
+  border-width: 0.5px;
+  padding-left: 18px;
+}
+
+.footer-subscribe .footer-small-menu-2 {
+  border-color: #b9b9b9;
+  border-spacing: 10px;
+  border-top: solid;
+  border-width: 0.5px;
+  padding-top: 10px;
+}
+
+.footer-subscribe .footer-small-menu {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.footer-subscribe .footer-icon-menu {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 900;
+}
+
+.footer-subscribe ul {
+  padding-left: 0;
+}
+
+.footer-top-links {
+  display: flex;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.8rem;
+  justify-content: space-around;
+  line-height: 1.5rem;
+  margin-bottom: 80px;
+}
+
+h3 {
+  border-bottom: solid 1px #999;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+}
+
+.space-astronomy-container .sidebar p {
+  border-top: solid 1px #ccc;
+  padding: 12px 10px;
+}
+
+.version {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 10px;
+}
+
+h4 {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.footer .footer-top-links ul li {
+  font-family: 'Libre Franklin', sans-serif;
+  list-style: none;
+}
+
+.footer-top-header {
+  border-color: #b9b9b9;
+  border-top-style: double;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 40px;
+  padding: 10px 0;
+}
+
+.footer-top-header .go-to-home-page span {
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8rem;
+  vertical-align: middle;
+}
+
+.callout strong {
+  display: block;
+  text-align: center;
+}
+
+.callout-main {
+  padding: 20px;
+}
+
+.colored {
+  color: rgb(86, 123, 149);
+}
+
+.editor-item {
+  display: flex;
+}
+
+.editor-item img {
+  display: block;
+  height: 70px;
+  margin: 9px;
+}
+
+.editor-pick {
+  height: 600px;
+  padding-right: 12px;
+  margin-right: 60px;
+  position: absolute;
+  right: 14px;
+  top: 1790px;
+  width: 220px;
+}
+
+.doubled {
+  padding-top: 51px;
+}
+
+.border-top {
+  border-top: solid 1.8px #999;
+}
+
+figure {
+  margin-left: 0;
+}
+
+aside {
+  font-family: 'Cormorant Garamond', serif;
+}
